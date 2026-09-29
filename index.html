@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>منصة النور التعليمية</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#f6f8fc;color:#172033}
+header{background:linear-gradient(135deg,#102a43,#1769aa);color:white;padding:22px 7%;position:sticky;top:0;z-index:5}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}.logo{font-size:25px;font-weight:800}.nav a{color:#fff;text-decoration:none;margin:0 8px;font-size:14px}
+.hero{padding:85px 7%;background:linear-gradient(135deg,#eaf4ff,#fff);display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.hero h1{font-size:48px;margin:0 0 18px;color:#102a43}.hero p{font-size:20px;line-height:1.9;color:#526174}.btn{display:inline-block;background:#1769aa;color:white;padding:14px 25px;border-radius:12px;text-decoration:none;font-weight:700;margin:8px 5px}
+.btn.alt{background:white;color:#1769aa;border:1px solid #b9d7ef}.hero-card{background:white;border-radius:25px;padding:30px;box-shadow:0 15px 45px #16324a22}.hero-card .big{font-size:55px}
+section{padding:65px 7%}section h2{text-align:center;font-size:32px;margin:0 0 12px;color:#102a43}section .lead{text-align:center;color:#68778a;margin:0 auto 35px;max-width:750px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.card{background:#fff;border:1px solid #e7edf4;border-radius:18px;padding:23px;box-shadow:0 8px 25px #16324a0d}.card h3{margin:10px 0;color:#102a43}.card p{color:#657286;line-height:1.7;font-size:14px}.icon{font-size:34px}
+.paths{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.path{background:#102a43;color:white;padding:25px;border-radius:20px}.path p{color:#dce9f5;line-height:1.8}
+.verify{background:#fff;border-radius:22px;max-width:850px;margin:auto;padding:35px;box-shadow:0 10px 35px #16324a12}.verify input{width:100%;padding:15px;border:1px solid #d6e0ea;border-radius:10px;font-size:16px;margin:12px 0}.verify button{width:100%;padding:15px;border:0;border-radius:10px;background:#1769aa;color:white;font-size:16px;font-weight:700}
+footer{background:#102a43;color:#dce9f5;padding:35px 7%;text-align:center}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.paths{grid-template-columns:1fr}.nav a{display:none}.hero h1{font-size:36px}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="logo">🎓 منصة النور التعليمية</div><nav>
+<a href="#courses">الدورات</a><a href="#paths">المسارات</a><a href="#why">لماذا النور؟</a><a href="#verify">التحقق من الشهادة</a>
+</nav></div></header>
+
+<section class="hero">
+<div><h1>مهارتك القادمة تبدأ من هنا.</h1><p>منصة تعليمية عربية تجمع الدورات العملية التي يحتاجها الطالب وسوق العمل، من الذكاء الاصطناعي وMicrosoft Office إلى البرمجة والمحاسبة والتسويق.</p>
+<a class="btn" href="#courses">استكشف الدورات</a><a class="btn alt" href="#verify">تحقق من شهادة</a></div>
+<div class="hero-card"><div class="big">🚀</div><h2 style="text-align:right">تعلّم • طبّق • طوّر</h2><p>محتوى منظم، مسارات واضحة، وشهادات إتمام قابلة للتحقق.</p></div>
+</section>
+
+<section id="courses"><h2>الدورات التعليمية</h2><p class="lead">مجموعة من أهم المهارات التي يحتاجها الطالب في الدراسة والعمل.</p>
+<div class="grid">
+<div class="card"><div class="icon">🤖</div><h3>الذكاء الاصطناعي</h3><p>أساسيات AI، استخدام ChatGPT، هندسة الأوامر وتطبيقات الذكاء الاصطناعي.</p></div>
+<div class="card"><div class="icon">📊</div><h3>Excel</h3><p>من الأساسيات إلى الدوال والتنسيق الشرطي والجداول والتقارير.</p></div>
+<div class="card"><div class="icon">📝</div><h3>Microsoft Word</h3><p>إعداد المستندات والبحوث والسيرة الذاتية والتنسيق الاحترافي.</p></div>
+<div class="card"><div class="icon">📽️</div><h3>PowerPoint</h3><p>إنشاء عروض تقديمية احترافية وتصميم الشرائح.</p></div>
+<div class="card"><div class="icon">💻</div><h3>تطوير الويب</h3><p>HTML وCSS وJavaScript ومبادئ بناء المواقع.</p></div>
+<div class="card"><div class="icon">🐍</div><h3>Python</h3><p>مدخل عملي إلى البرمجة باستخدام Python.</p></div>
+<div class="card"><div class="icon">📈</div><h3>التسويق الرقمي</h3><p>المحتوى والإعلانات ووسائل التواصل وتحليل النتائج.</p></div>
+<div class="card"><div class="icon">🧾</div><h3>المحاسبة</h3><p>المحاسبة العملية ومبادئ القيود والتقارير واستخدام Excel.</p></div>
+<div class="card"><div class="icon">🎨</div><h3>Canva</h3><p>تصميم المنشورات والعروض والمواد التسويقية.</p></div>
+<div class="card"><div class="icon">🎬</div><h3>CapCut</h3><p>مونتاج الفيديوهات القصيرة وصناعة محتوى Reels.</p></div>
+<div class="card"><div class="icon">🇬🇧</div><h3>اللغة الإنجليزية</h3><p>مهارات عملية للطلاب والعمل والمحادثة.</p></div>
+<div class="card"><div class="icon">💼</div><h3>المهارات المهنية</h3><p>السيرة الذاتية، مقابلات العمل، التواصل وإدارة الوقت.</p></div>
+</div></section>
+
+<section id="paths"><h2>المسارات التعليمية</h2><p class="lead">ابدأ من المستوى المناسب لك واتبع طريقاً منظماً.</p>
+<div class="paths">
+<div class="path"><h3>🎓 مسار الطالب الجامعي</h3><p>Word + Excel + PowerPoint + AI + مهارات البحث والعروض.</p></div>
+<div class="path"><h3>💼 مسار سوق العمل</h3><p>Excel + التسويق الرقمي + CV + مقابلات العمل + المهارات المهنية.</p></div>
+<div class="path"><h3>💻 مسار التقنية</h3><p>AI + HTML + CSS + JavaScript + Python ومبادئ تطوير المواقع.</p></div>
+</div></section>
+
+<section id="why"><h2>لماذا منصة النور؟</h2><p class="lead">تعليم عملي ومباشر يركز على المهارة والتطبيق.</p>
+<div class="grid"><div class="card"><div class="icon">📚</div><h3>محتوى منظم</h3><p>الدروس مرتبة ضمن دورات ومسارات واضحة.</p></div><div class="card"><div class="icon">🛠️</div><h3>تطبيق عملي</h3><p>تمارين ومشاريع تساعدك على تحويل المعرفة إلى مهارة.</p></div><div class="card"><div class="icon">🏆</div><h3>شهادة إتمام</h3><p>إمكانية إصدار شهادة إتمام للدورات وفق نظام المنصة.</p></div><div class="card"><div class="icon">🔎</div><h3>تحقق إلكتروني</h3><p>يمكن ربط كل شهادة برقم فريد ورمز QR للتحقق.</p></div></div></section>
+
+<section id="verify"><h2>التحقق من الشهادة</h2><p class="lead">أدخل رقم الشهادة للتحقق من بياناتها عند تفعيل نظام الشهادات.</p>
+<div class="verify"><input id="cert" placeholder="مثال: NOOR-2026-0001"><button onclick="verifyCert()">تحقق من الشهادة</button><div id="result" style="margin-top:18px"></div></div></section>
+
+<footer>© 2026 منصة النور التعليمية — جميع الحقوق محفوظة</footer>
+<script>
+function verifyCert(){
+ const id=document.getElementById('cert').value.trim();
+ const r=document.getElementById('result');
+ if(!id){r.innerHTML='<p style="color:#b42318">يرجى إدخال رقم الشهادة.</p>';return}
+ r.innerHTML='<div style="background:#f2f8fd;padding:18px;border-radius:12px"><b>رقم الشهادة:</b> '+id+'<br><br>نظام التحقق جاهز للربط لاحقاً مع Google Sheets وGoogle Apps Script.</div>';
+}
+</script>
+</body>
+</html>
